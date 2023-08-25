@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Imc com Darkmode</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <main id="toggleMode">
+        <div class="header">
+           <h4 class="title">Calcule o IMC</h4>
+            <i id="modeIcon" class="fa-solid fa-moon"  class="fa-solid fa-sun"></i>
+        </div>
+        <div class="form">
+            <label for="nome">Nome:</label>
+            <div class="input-container">
+                <i class="fa-solid fa-user"></i>
+                <input type="text" id="nome" name="name">
+            </div>
+        </div>
+        <div class="form">
+            <label for="altura">Altura:</label>
+            <div class="input-container">
+                <i class="fa-solid fa-ruler"></i>
+                <input type="text" id="altura" name="ruler">
+            </div>
+        </div>
+        <div class="form">
+            <label for="peso">Peso:</label>
+            <div class="input-container">
+                <i class="fa-solid fa-scale-balanced"></i>
+                <input type="text" id="peso" name="balanca">
+            </div>
+        </div>
+        <button id="calcular" class="btn">Calcular</button>
+
+        <div class="resultado" id="result"></div>
+    </main>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
