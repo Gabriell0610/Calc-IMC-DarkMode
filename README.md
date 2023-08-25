@@ -3,7 +3,7 @@
 <p align="center">
 Feito para Estudo, eu juntei dois projetos em um para melhorar minhas habilidades com JavaScript
 </p>
-Acesse o site aqui ---> 
+Acesse o site aqui --->  https://gabriell0610.github.io/Calc-IMC-DarkMode/
 <br>
 
 
